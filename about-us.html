@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first app</title>
+    <style>
+      body {
+        background: rgb(129, 146, 46);
+        position: relative;
+      }
+
+      .header {
+        padding: 0 93px;
+      }
+
+      .header__list {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .header__item {
+        color: rgb(239, 239, 239);
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 73px;
+        text-decoration-line: underline;
+
+        a {
+          color: inherit;
+        }
+      }
+      .me {
+        background-color: rgb(239, 239, 239, 0.2);
+        margin: 5%;
+      }
+      .me__note {
+        color: rgb(239, 239, 239);
+        font-size: 90px;
+        font-weight: 400;
+        text-align: left;
+        margin-top: 0px;
+        color: rgb(239, 239, 239);
+        line-height: 110px;
+        margin-bottom: 0px;
+        margin-left: 2%;
+        letter-spacing: 0px;
+        /* text-decoration: underline; */
+      }
+      .me-img {
+        float: right;
+        height: 400px;
+        margin: 5%;
+      }
+      .text {
+        color: rgb(239, 239, 239);
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin: 5%;
+      }
+      .he {
+        border: 3px solid rgb(239, 239, 239);
+        width: 600px;
+        margin: 0px;
+        float: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <ul class="header__list">
+        <li class="header__item"><a href="/homepage.html">Home</a></li>
+        <li class="header__item"><a href="/works.html">Works</a></li>
+        <li class="header__item"><a href="/about-us.html">About me</a></li>
+        <li class="header__item"><a href="/contacts.html">Contacts</a></li>
+      </ul>
+    </header>
+    <main class="main">
+      <section class="me">
+        <img src="photo_2024-06-08_17-06-14.jpg" class="me-img" />
+        <h1 class="me__note">About me</h1>
+        <hr class="he" />
+
+        <p class="text">
+          My name is Sofia Goryunova. I'm 19 y.o. I study at Innopolis
+          University from 2023 year. I became interested in programming in 3rd
+          grade when started attending a programming club. The first programming
+          language that I was lucky enough to learn was QBasic. Then at 9 grade
+          I decided to became professional programmer and started to prepare for
+          exams. That was the moment when I learned Python. I also take a lot of
+          cources such as 2D games on python, data science on python, web
+          development cources, etc.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
